@@ -15,6 +15,28 @@ This is a production-ready starter template featuring **TanStack Start**, **Driz
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [DDEV](https://ddev.com/get-started/)
 
+## Using this Template
+
+After creating a new repository from this template, follow these steps to rename the project:
+
+1.  **Update Project Name in `package.json`**:
+    Change the `"name"` field to your project name.
+
+2.  **Update DDEV Config in `.ddev/config.yaml`**:
+    Change `name: template` to your desired project name (e.g., `name: my-app`).
+    *Note: This will determine your local URL (e.g., `https://my-app.ddev.site`).*
+
+3.  **Update Vite Config in `vite.config.ts`**:
+    Update the `allowedHosts` array to match your new DDEV URL:
+    ```ts
+    allowedHosts: ['my-app.ddev.site'],
+    ```
+
+4.  **Start the Project**:
+    ```bash
+    ddev start
+    ```
+
 ## Getting Started
 
 1.  **Initialize the Environment**
