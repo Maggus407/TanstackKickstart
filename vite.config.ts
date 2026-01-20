@@ -13,7 +13,7 @@ const config = defineConfig({
     },
   },
   server: {
-    allowedHosts: ['nomad-blog.ddev.site'],
+    allowedHosts: ['template.ddev.site'],
   },
 
   plugins: [
