@@ -21,27 +21,16 @@ This is a production-ready starter template featuring **TanStack Start**, **Driz
     ```bash
     ddev start
     ```
+    This automatically installs dependencies, sets up the database, and starts the development server.
 
-2.  **Install Dependencies**
-    ```bash
-    ddev npm install
-    ```
+2.  **Access the Application**
+    Open [https://template.ddev.site](https://template.ddev.site)
 
-3.  **Setup Database**
-    Push the schema to the database:
-    ```bash
-    ddev npm run db:push
-    ```
-    (Optional) Seed the database with test data:
+3.  **(Optional) Seed Database**
+    To populate the database with initial data:
     ```bash
     ddev npm run db:seed
     ```
-
-4.  **Run Development Server**
-    ```bash
-    ddev npm run dev
-    ```
-    Open [https://blog.ddev.site](https://blog.ddev.site) (or localhost:3000)
 
 ## Scripts
 
