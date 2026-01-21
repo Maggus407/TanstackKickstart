@@ -1,10 +1,11 @@
 # TanStack Start - Golden Standard Starter
 
-This is a production-ready starter template featuring **TanStack Start**, **Drizzle ORM**, **PostgreSQL**, and **DDEV**.
+This is a production-ready starter template featuring **TanStack Start**, **Drizzle ORM**, **Tailwind CSS v4**, **Shadcn UI**, **PostgreSQL**, and **DDEV**.
 
 ## Features
 
 - **Framework**: [TanStack Start](https://tanstack.com/start) (React)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) (CSS-first configuration) + [Shadcn UI](https://ui.shadcn.com/)
 - **Database**: [PostgreSQL](https://www.postgresql.org/) (via [Drizzle ORM](https://orm.drizzle.team/))
 - **Environment**: [DDEV](https://ddev.com/) for reproducible local development
 - **Type Safety**: strict TypeScript
